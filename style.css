@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #131313; 
+    height: 100%;
+    width: 100%;
+    }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+     }  
+.page{
+   display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    }
+.page__content{
+    width: 1171px;
+    height: 552px;
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+}
+
+.content__description{
+    width: 442px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.content__description h1{   
+    font-size: 27px;
+    color: #E3B873;
+    text-transform: uppercase;
+    letter-spacing: -0.07em;
+    width: 253px;
+    margin-bottom: 34px;
+    margin-top: 60px;
+    line-height: 138%;
+}
+.content__line{
+    margin-bottom: 10px;
+    margin-left: 28px;
+}
+
+.content__story{
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 190%;
+    margin-bottom: 42px;
+}
+
+.content__features {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto;  
+    gap: 34px; 
+}
+
+.content__description h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #E3B873;
+    margin-bottom: 9px;
+}
+
+.content__features p{
+    font-size: 13px;
+    font-family: 'Nunito Sans';
+}
+
+
+.arrow {
+    cursor: pointer;
+    }
+.content__controls {
+    display: flex;          
+    align-items: center;    
+    justify-content: start;
+    margin-top: 80px;       
+    width: 100%;            
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.dot-active {
+    background-color: rgb(255, 255, 255);
+}
+
+.img{
+    width: 679px;
+    height: 483px;
+    margin-left: 50px;
+    }
+    
+.content__title{
+    display: flex;
+    margin: 0 0 45px 50px;
+    gap: 60px;
+}
+
+.title{
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content__title-active{
+    color: #E3B873;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
